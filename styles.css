@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Glass+Antiqua&family=Lobster&family=Varela+Round&display=swap');
+body {
+    background-color: #3A4D39;
+    border:1px dashed #BBD6B8;
+}
+
+.content {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-wrapper {
+    box-sizing:border-box;
+    height:25%;
+    padding: 2% 0;
+}
+
+
+.port {
+    color:#D4FAFC;
+    text-align: center;
+    font-family: 'Glass Antiqua';
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    background-image: url('sky.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 6rem;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    letter-spacing:.5rem;
+    margin: 1% 2%;
+}
+.project-image {
+    background-color: #65451F;
+    margin: 0 5%;
+    height:20vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 10px;
+    border-radius: 10px;
+}
+
+img {
+height:20vh;
+}
+
+.gif-wrap {
+    width:100%;
+}
+.nether-star {
+margin:auto;
+height: 5vh;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.project-desc {
+    text-align: center;
+    line-height: 1.5rem;
+    color:#EBF3E8;
+    font-family:'Agbalumo', sans-serif;
+}
+.project-tools {
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    color:#F3DEBA;
+    font-family:'Agbalumo', sans-serif;
+}
+
+a {
+    color:#D2E3C8;
+    text-decoration:underline;
+}
+a:hover {
+color:#7C96AB;
+text-decoration:underline;
+}
+
+.tool {
+    text-align: center;
+}
+
+footer {
+    height:25%;
+    color:white;
+    background-color: #8EAC50;
+    padding:1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* color:#066b19; 
+032b0a*/
